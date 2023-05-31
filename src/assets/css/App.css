@@ -10,7 +10,7 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background: rgb(17, 17, 17);
-  background: linear-gradient(0deg, rgba(17, 17, 17, 1) 0%, rgba(121, 81, 9, 1) 35%, rgba(255, 109, 0, 1) 100%);
+  background: linear-gradient(0deg, rgba(17, 17, 17, 1) 0%, rgba(255, 109, 0, 1) 100%);
   height: 800px;
 }
 
@@ -65,4 +65,56 @@ body {
   height: 6vh;
   box-shadow: 0 0 20px white;
   border-radius: 50px;
+}
+
+.menu {
+  margin: 0 5vh;
+}
+
+.itens {
+  padding: 2vh;
+  text-align: center;
+  color: black;
+  font-size: 0.75rem;
+  text-decoration: none;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.itens div {
+  background-color: white;
+  display: flex;
+}
+
+.itens div span {
+  font-weight: bolder;
+}
+
+.itens div p {
+  color: rgb(0, 0, 0);
+  font-weight: 350;
+}
+
+.nomes {
+  padding: 2vh;
+  background-color: #747272;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nomes h3 {
+  font-size: x-large;
+  font-family: 'Caveat';
+}
+
+.nomes button {
+  margin: 1vh 1vh;
+  padding: 1vh;
+  background-color: rgb(255, 109, 0, 1);
+  border: none;
+  border-radius: 10px;
 }
