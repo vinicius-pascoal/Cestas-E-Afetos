@@ -1,10 +1,17 @@
-import './App.css';
+import './assets/css/App.css';
+
+
+import logo from './assets/imgs/logo.png';
 
 function App() {
   return (
     <div className="App">
-      <h1>hello world</h1>
-    </div>
+      <div className='head'>
+        <img src={logo} alt="logo" />
+        <h1>Cestas e Afetos</h1>
+
+      </div >
+    </div >
   );
 }
 
